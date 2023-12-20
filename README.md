@@ -62,3 +62,8 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+Install Granted
+```bash
+curl -OL releases.commonfate.io/granted/v0.20.3/granted_0.20.3_linux_x86_64.tar.gz
+sudo tar -zxvf ./granted_0.20.3_linux_x86_64.tar.gz -C /usr/local/bin/
+```
