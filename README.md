@@ -62,6 +62,14 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+Install and configure ECR credential helper
+```bash
+sudo apt install amazon-ecr-credential-helper
+
+echo '{"credsStore": "ecr-login"}' > ~/.docker/config.json
+```
+
 Install Granted
 ```bash
 curl -OL releases.commonfate.io/granted/v0.20.3/granted_0.20.3_linux_x86_64.tar.gz
