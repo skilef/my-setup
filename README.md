@@ -75,3 +75,14 @@ Install Granted
 curl -OL releases.commonfate.io/granted/v0.20.3/granted_0.20.3_linux_x86_64.tar.gz
 sudo tar -zxvf ./granted_0.20.3_linux_x86_64.tar.gz -C /usr/local/bin/
 ```
+
+Things to install from PopShop (.deb):
+* VSCode
+* Discord
+* Firefox
+* Firmware Manager
+* Gnome Tweaks
+* Logseq
+* Thunderbird
+* Slack
+* VLC
